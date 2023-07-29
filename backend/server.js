@@ -13,7 +13,7 @@ process.on("uncaughtException", (err) => {
 });
 
 //config
-dotenv.config({ path: "backend/config/config.env" });
+dotenv.config({ path: "config/config.env" });
 
 //Database Connection
 
@@ -27,7 +27,7 @@ cloudinary.config({
 
 //App Listining
 const server = app.listen(process.env.PORT, () => {
-  console.log(`Starting at http:///localhost:${process.env.PORT}`);
+  console.log(`Starting at http://localhost:${process.env.PORT}`);
 });
 
 // Unhandled Promise Rejection
