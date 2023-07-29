@@ -1,0 +1,138 @@
+
+
+.myOrdersPage{
+  background-color: rgb(255, 255, 255);
+  padding: 1vmax;
+  box-sizing: border-box;
+  border-radius: 0.5vmax;
+  /* box-shadow: 0 0 0.5vmax rgb(0, 0, 0); */
+  min-height: 80vh;
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  /* align-items: center; */
+}
+
+.myOrdersTable{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myOrdersTableHeading{
+  background-color: tomato;
+  color: rgb(255, 255, 255);
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1vmax solid tomato;
+}
+
+.myOrdersTableBody{
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 44, 44);
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1vmax solid rgb(44, 44, 44);
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.myOrdersTableBody table tr{
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 44, 44);
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1vmax solid rgb(44, 44, 44);
+}
+
+.myOrdersTableBody table tr th{
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 44, 44);
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1vmax solid rgb(44, 44, 44);
+}
+
+tbody{
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 44, 44);
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1vmax solid rgb(44, 44, 44);
+}
+
+tbody tr{
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 44, 44);
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1vmax solid rgb(44, 44, 44);
+}
+
+
+tbody tr td{
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 44, 44);
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1vmax solid rgb(44, 44, 44);
+}
+
+
+.myOrdersEmpty{
+  text-align: center;
+  font: 400 1.2vmax "Roboto";
+  padding: 0.5vmax;
+  box-sizing: border-box;
+  color: rgb(44, 44, 44);
+  transition: all 0.5s;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+  .myOrdersPage{
+    width: 100%;
+    /* margin: 0; */
+    margin-top: 1vh;
+    padding: 0;
+    min-height: 80vh;
+  }
+  .myOrdersTableHeading{
+    font: 400 2vmax "Roboto";
+  }
+  .myOrdersTableBody{
+    font: 400 2vmax "Roboto";
+  }
+  .myOrdersEmpty{
+    font: 400 2vmax "Roboto";
+  }
+}
+

@@ -1,0 +1,8 @@
+*{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+.menuBurger{
+    height: 3.5vmax !important;
+}
